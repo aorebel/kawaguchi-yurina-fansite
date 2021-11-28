@@ -7,9 +7,13 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		adapter: node({ env: { port: process.env.PORT } }),
+		
 		// hydrate the <div id="svelte"> element in src/app.html
 		target: '#svelte'
-	}
+	},
+	webPreferences: {
+		nodeIntegration: true,
+	},
 };
 
 export default config;
