@@ -9,7 +9,13 @@ const config = {
 		adapter: node({ env: { port: process.env.PORT } }),
 		
 		// hydrate the <div id="svelte"> element in src/app.html
-		target: '#svelte'
+		target: '#svelte',
+		vite: {
+			ssr: {
+				external: ['whatwg-url']
+			  }
+		   },
+		
 	},
 	webPreferences: {
 		nodeIntegration: true,
