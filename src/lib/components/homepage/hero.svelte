@@ -1,6 +1,8 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center">
+   
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      
       <p><span class="typed" data-typed-items="川口ゆりな, 카와구치유리나, 川口 百合凪, Kawaguchi Yurina"></span></p>
       <div class="social-links">
         <button type="button" class="btn btn-outline"><i class="bx bxl-instagram"></i><a href="https://www.instagram.com/kawaguchi_yurina_official/" class="instagram">  Instagram</a></button>
